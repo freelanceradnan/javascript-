@@ -18,7 +18,12 @@
 // let BoolFromNum=Boolean(num);
 // console.log(BoolFromNum);
 
-//javascript type conversion(String to Boolean):
-let str='10';
-let BoolFromStr=Boolean(str);
-console.log(BoolFromStr);
+// //javascript type conversion(String to Boolean):
+// let str='10';
+// let BoolFromStr=Boolean(str);
+// console.log(BoolFromStr);
+
+//javascript type conversion(Boolean to String):
+let myName=true;
+let StrFromBool=String(myName);
+console.log(typeof StrFromBool);
