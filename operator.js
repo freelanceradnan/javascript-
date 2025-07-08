@@ -58,3 +58,8 @@ console.log(x%y);
 let x=20;
 let y=10;
 console.log(x==y);
+
+//javascript operator(equals value or equal type):
+let x=20;
+let y=10;
+console.log(x===y);
