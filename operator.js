@@ -93,3 +93,8 @@ console.log(x<=y);
 let x=20;
 let y=20;
 console.log(x>=y);
+
+//ternary operator
+let age=18;
+let greet=age>=18?'welcome':'getout';
+console.log(greet);
