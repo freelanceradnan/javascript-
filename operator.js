@@ -88,3 +88,8 @@ console.log(x<y);
 let x=20;
 let y=20;
 console.log(x<=y);
+
+//javascript operator(graterthenequal):
+let x=20;
+let y=20;
+console.log(x>=y);
