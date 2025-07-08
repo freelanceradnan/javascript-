@@ -47,3 +47,8 @@ console.log(num2);
 let x=100;
 let y=10;
 console.log(x/y);
+
+//operator(modulus):
+let x=110;
+let y=12;
+console.log(x%y);
