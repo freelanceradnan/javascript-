@@ -13,9 +13,12 @@
 // let NumFromNum=Boolean(isBool);
 // console.log(NumFromNum);
 
-//javascript type conversion(Number to Boolean):
-let num=10;
-let BoolFromNum=Boolean(num);
-console.log(BoolFromNum);
+// //javascript type conversion(Number to Boolean):
+// let num=10;
+// let BoolFromNum=Boolean(num);
+// console.log(BoolFromNum);
 
-
+//javascript type conversion(String to Boolean):
+let str='10';
+let BoolFromStr=Boolean(str);
+console.log(BoolFromStr);
