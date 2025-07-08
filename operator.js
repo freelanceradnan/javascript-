@@ -63,3 +63,8 @@ console.log(x==y);
 let x=20;
 let y=10;
 console.log(x===y);
+
+//javascript operator(not equal):
+let x=20;
+let y=20;
+console.log(!x==y);
