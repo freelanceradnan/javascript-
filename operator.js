@@ -42,3 +42,8 @@ console.log(age);
 let num=20;
 num2=--num;
 console.log(num2);
+
+//operator(division):
+let x=100;
+let y=10;
+console.log(x/y);
