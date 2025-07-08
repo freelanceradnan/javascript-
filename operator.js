@@ -52,3 +52,9 @@ console.log(x/y);
 let x=110;
 let y=12;
 console.log(x%y);
+
+//javascript comparison operators:
+//javascript operator(equals to):
+let x=20;
+let y=10;
+console.log(x==y);
