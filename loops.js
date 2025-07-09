@@ -53,3 +53,9 @@ do{
 while(age>=18){
     console.log(age);
 }
+
+//access array single value with for loops
+let array=['adnan',20,'shaharia','mahim'];
+for(i=0;i<array.length;i++){
+    console.log(array[i]);
+}
