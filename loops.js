@@ -8,3 +8,10 @@ for(let i=0;i<=10;i++){
 for(i=100;i>=0;i--){
     console.log(i);
 }
+
+//global schope in javascript:
+let i=1;
+for(i;i<=10;i++){
+    console.log(i);
+}
+console.log('i:'+i);
