@@ -36,3 +36,11 @@ let i=10;
 while(i--){
     console.log(i);
 }
+
+//break statements in js
+let i=10;
+while(i--){
+    if(i==5)break;
+    console.log(i);
+    
+}
