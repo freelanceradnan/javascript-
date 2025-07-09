@@ -22,3 +22,11 @@ while(i>=0){
  console.log(i);
  i--;
 }
+
+//global schope in javascript:
+let i=1;
+while(i<=10){
+    console.log(i);
+    i++;
+}
+console.log('i:'+i);
