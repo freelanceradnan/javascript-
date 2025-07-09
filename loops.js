@@ -65,3 +65,9 @@ let names=['adnan','shaharia','mahim'];
 for(name of names){
  console.log(name);
 }
+
+let names=['adnan','shaharia','mahim'];
+names.forEach((el)=>{
+    console.log(el);
+})
+
