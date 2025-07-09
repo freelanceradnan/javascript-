@@ -30,3 +30,9 @@ while(i<=10){
     i++;
 }
 console.log('i:'+i);
+
+//while loops in different condition:
+let i=10;
+while(i--){
+    console.log(i);
+}
