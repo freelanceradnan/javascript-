@@ -15,3 +15,10 @@ for(i;i<=10;i++){
     console.log(i);
 }
 console.log('i:'+i);
+
+// //while loops in javascript
+let i=10;
+while(i>=0){
+ console.log(i);
+ i--;
+}
