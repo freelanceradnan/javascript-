@@ -44,3 +44,12 @@ while(i--){
     console.log(i);
     
 }
+
+//do while loops in javascript
+let age=17;
+do{
+    console.log(age);
+}
+while(age>=18){
+    console.log(age);
+}
