@@ -59,3 +59,9 @@ let array=['adnan',20,'shaharia','mahim'];
 for(i=0;i<array.length;i++){
     console.log(array[i]);
 }
+
+//for of loops in javascript
+let names=['adnan','shaharia','mahim'];
+for(name of names){
+ console.log(name);
+}
