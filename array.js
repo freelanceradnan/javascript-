@@ -108,3 +108,15 @@ for(phone of phones){
         console.log(singlephonedate);
     }
 }
+
+//accessing two  dimentsional array element with foreach 
+let phones=[
+    ['iphone','iphone',100000],
+    ['xioami','xiaomi',50000],
+    ['walton','walton',10000],
+];
+phones.forEach((singlephone)=>{
+    singlephone.forEach((data)=>{
+        console.log(data);
+    });
+});
