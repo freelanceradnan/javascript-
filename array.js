@@ -84,3 +84,15 @@ let person=[
     ['shakib',31,'pakistan'],
 ];
 console.log(person[0][2]);//here 0 for line number and 2 for index number
+
+//nested loops 
+let persons=[
+    ['adnan','usa',30],
+    ['ridoy','bd',25],
+    ['nahid','india',35],
+];
+for(let i=0;i<persons.length;i++){
+    for(let j=0;j<persons[i].length;j++){
+        console.log(persons[i][j]);
+    }
+}
