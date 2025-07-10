@@ -15,3 +15,9 @@ console.log(array);
 //access array value number:
 let array=['adnan','shaharia','mahim'];
 console.log(array.length);//array value number count
+
+
+//access array point of index number:
+let array=['adnan','shaharia','mahim',29];
+
+console.log(array.length-1);
