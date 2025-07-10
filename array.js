@@ -11,3 +11,7 @@ console.log(array);
 let array=['adnan','shaharia','mahim',20];
 array[array.length]='no';
 console.log(array);
+
+//access array value number:
+let array=['adnan','shaharia','mahim'];
+console.log(array.length);//array value number count
