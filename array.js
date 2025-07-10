@@ -36,3 +36,8 @@ console.log(array);
 let array=['adnan','shaharia','mahim',20];
 array.unshift('myname');
 console.log(array);
+
+//delete value in array(shift):
+let array=['adnan','shaharia','mahim',20];
+array.shift();
+console.log(array);
