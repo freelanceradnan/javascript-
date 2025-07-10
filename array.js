@@ -75,3 +75,12 @@ for(let i=0;i<num.length;i++){
     newNum.push(num[i]*2);
 }
 console.log(newNum);
+
+//accessing value with two dimensional array
+let person=[
+    ['adnan',30,'bangladesh'],
+    ['ridoy',35,'usa'],
+    ['nahid',32,'nigeria'],
+    ['shakib',31,'pakistan'],
+];
+console.log(person[0][2]);//here 0 for line number and 2 for index number
