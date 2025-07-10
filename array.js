@@ -96,3 +96,15 @@ for(let i=0;i<persons.length;i++){
         console.log(persons[i][j]);
     }
 }
+
+//accessing array element with for of loops
+let phones=[
+    ['iphone','iphone',100000],
+    ['xiaomi','xiaomi','50000'],
+    ['redmi','redmi','40000'],
+];
+for(phone of phones){
+    for(singlephonedate of phone){
+        console.log(singlephonedate);
+    }
+}
