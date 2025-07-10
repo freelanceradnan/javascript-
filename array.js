@@ -67,3 +67,11 @@ for(let i=0;i<array.length;i++){
     newArray.push('mr'+array[i]);
 }
 console.log(newArray);
+
+//making double number with array element number using for loop and push methods
+let num=[1,2,3,4,5,6,7,8];
+let newNum=[];
+for(let i=0;i<num.length;i++){
+    newNum.push(num[i]*2);
+}
+console.log(newNum);
