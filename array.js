@@ -45,3 +45,9 @@ console.log(array);
 //uppercase in array
 let str='Hello World';
 console.log(str.toUpperCase());
+
+//printing single value from array with for loops:
+let str=['bangladesh','is','a','development','country'];
+for(i=0;i<str.length;i++){
+    console.log(str[i]);
+}
