@@ -26,3 +26,8 @@ console.log(array.length-1);
 let array=['adnan','shaharia','mahim',20];
 array.push('dhonia');
 console.log(array);
+
+//deleting value from last in js(pop)methods:
+let array=['legend','never','die','52'];
+array.pop();
+console.log(array);
