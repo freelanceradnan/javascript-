@@ -31,3 +31,8 @@ console.log(array);
 let array=['legend','never','die','52'];
 array.pop();
 console.log(array);
+
+//adding value in array first(unshift):
+let array=['adnan','shaharia','mahim',20];
+array.unshift('myname');
+console.log(array);
