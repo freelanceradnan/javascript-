@@ -51,3 +51,10 @@ let str=['bangladesh','is','a','development','country'];
 for(i=0;i<str.length;i++){
     console.log(str[i]);
 }
+
+//replace array value with for loops:
+let array=['amar','sonar','bangladesh','ami','tomake','valobashi'];
+for(i=0;i<array.length;i++){
+    array[i]='array missing';
+}
+console.log(array);
