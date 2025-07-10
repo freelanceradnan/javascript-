@@ -41,3 +41,7 @@ console.log(array);
 let array=['adnan','shaharia','mahim',20];
 array.shift();
 console.log(array);
+
+//uppercase in array
+let str='Hello World';
+console.log(str.toUpperCase());
