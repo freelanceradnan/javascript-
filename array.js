@@ -21,3 +21,8 @@ console.log(array.length);//array value number count
 let array=['adnan','shaharia','mahim',29];
 
 console.log(array.length-1);
+
+//adding value in array (last) with push()method
+let array=['adnan','shaharia','mahim',20];
+array.push('dhonia');
+console.log(array);
