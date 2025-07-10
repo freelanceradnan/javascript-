@@ -58,3 +58,12 @@ for(i=0;i<array.length;i++){
     array[i]='array missing';
 }
 console.log(array);
+
+//adding value in array element with(push) and create a new array
+
+let array=['mahim','shakib','ridoy','nahid'];
+let newArray=[];
+for(let i=0;i<array.length;i++){
+    newArray.push('mr'+array[i]);
+}
+console.log(newArray);
