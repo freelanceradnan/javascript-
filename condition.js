@@ -135,3 +135,18 @@ for(let i=0;i<num.length;i++){
     }
 }
 console.log(evenNums);
+
+//choose less then age 30 person in js;
+let person=[
+    ['adnan','it bd',28],
+    ['shakib','dinajpur it',33],
+    ['tamim','dinajpur',35],
+    ['ridoy','piragang',25],
+];
+let lessThen30=[];
+for(i=0;i<person.length;i++){
+    if(person[i][2]<30){
+        lessThen30.push(person[i]);
+    }
+}
+console.log(lessThen30);
