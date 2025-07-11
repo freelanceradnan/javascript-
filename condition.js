@@ -72,3 +72,29 @@ else if(day==5){
 else{
     console.log('saturday');
 }
+
+//javascript date with switch statement 
+let day=new Date().getDay();
+switch(day){
+    case 0:
+    console.log('Sunday');
+    break;
+    case 1:
+    console.log('Monday');
+    break;
+    case 2:
+    console.log('Tuesday');
+    break;
+    case 3:
+    console.log('Wednesday');
+    break;
+    case 4:
+    console.log('thursday');
+    break;
+    case 5:
+    console.log('Friday');
+    break;
+    default:
+    console.log('saturday');
+    
+}
