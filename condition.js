@@ -98,3 +98,30 @@ switch(day){
     console.log('saturday');
     
 }
+
+if and if else statements with order:
+let age=41;
+if (age>=18){
+    if(age>90){
+        console.log('are you alive bro?');
+    }
+    else if(age>80){
+        console.log('you are oldest');
+    }
+    else if(age>70){
+        console.log('you are older');
+    }
+    else if(age>60){
+        console.log('you are became old');
+    }
+    else if(age>50){
+        console.log('you are now old');
+    }
+    else if(age>40){
+        console.log('you are youngest');
+    }
+  
+    }
+      else{
+        console.log('you are young');
+    }
