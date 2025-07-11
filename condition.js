@@ -99,7 +99,7 @@ switch(day){
     
 }
 
-if and if else statements with order:
+//if and if else statements with order:
 let age=41;
 if (age>=18){
     if(age>90){
@@ -125,3 +125,13 @@ if (age>=18){
       else{
         console.log('you are young');
     }
+
+//print event num with array;
+let num=[1,2,3,4,5,6,7,8,9,10];
+let evenNums=[];
+for(let i=0;i<num.length;i++){
+    if(num[i]%2==0){
+      evenNums.push(num[i]);
+    }
+}
+console.log(evenNums);
