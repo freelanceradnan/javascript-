@@ -31,3 +31,20 @@ else if(age!='Dhaka'){
 else if(age>=18&&addr=='Dhaka'){
     console.log('you are welcome!');
 }
+
+//solve fizz and buzz problems with if and if else (print 1-100 ,if i%3==0 then print fizz and if i%5==0 then print buzz and when i%3==0&&i%3==0 then fizzbuzz);
+
+for(let i=0;i<=100;i++){
+    if(i%3==0&&i%5==0){
+        console.log('fizzbuzz');
+    }
+    else if(i%5==0){
+        console.log('Buzz');
+    }
+    else if(i%3==0){
+        console.log('fizz');
+    }
+    else{
+        console.log(i);
+    }
+}
