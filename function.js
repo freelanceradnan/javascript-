@@ -50,3 +50,16 @@ function add(num1=0,num2=0){
 }
 let result1=add();
 console.log(result1);
+
+
+//function order:
+function sayHello(){
+    console.log('Hello Js');
+}
+function OnceSayHello(){
+    sayHello();
+}
+function OnceAgainSayHello(){
+    OnceSayHello();
+}
+OnceAgainSayHello();
