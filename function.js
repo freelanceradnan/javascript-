@@ -19,3 +19,13 @@ function sayHello(username){
 sayHello('Mahim');
 sayHello('Ridoy');
 sayHello('Nahid');
+
+//java return keyword;
+function add(num1,num2){
+    return num1+num2;
+}
+let result1=add(10,20);
+let result2=add(50,30);
+let result3=add(100,20);
+let result4=add(150,200);
+console.log(result1,result2,result3,result4);
