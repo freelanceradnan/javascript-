@@ -80,3 +80,9 @@ function calculator(num1=0,operation='+',num2=0){
 }
 let result=calculator(50,'+',50);
 console.log(result);
+
+//arrow function;
+let sayHello=()=>{
+    console.log('Hello world');
+}
+sayHello();
