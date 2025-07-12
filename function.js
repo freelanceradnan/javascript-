@@ -63,3 +63,20 @@ function OnceAgainSayHello(){
     OnceSayHello();
 }
 OnceAgainSayHello();
+
+//making a simple calculator with switch case and function;
+
+function calculator(num1=0,operation='+',num2=0){
+    switch(operation){
+        case '+':
+            return num1+num2;
+        case '-':
+            return num1-num2;
+        case '*':
+            return num1*num2;
+        case '/':
+            return num1/num2;
+    }
+}
+let result=calculator(50,'+',50);
+console.log(result);
