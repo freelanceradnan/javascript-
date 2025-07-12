@@ -43,3 +43,10 @@ function add(num1,num2){
 let result1=add();
 
 console.log(result1);
+
+//function with direct parameter value:
+function add(num1=0,num2=0){
+    return num1+num2;
+}
+let result1=add();
+console.log(result1);
