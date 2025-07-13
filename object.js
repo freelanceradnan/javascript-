@@ -40,3 +40,22 @@ let person={
 }
 let addr='location';
 console.log(person[addr]);
+
+calculator object 
+let calculator={
+    sum:function(num1,num2){
+        return num1+num2;
+    },
+    minus:function(num1,num2){
+        return num1-num2;
+    },
+    multiply:function(num1,num2){
+        return num*num2;
+    },
+    division:function(num1,num2){
+        return num1/num2;
+    },
+}
+console.log(calculator.sum(10,10));
+
+
