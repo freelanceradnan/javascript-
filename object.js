@@ -98,3 +98,19 @@ function sayHello(){
     console.log(this);
 }
 sayHello();
+
+//javascript this keyword
+let person={
+    name:'adnan',
+    age:21,
+    interest:['js','php','python'],
+    sayHello(){
+        console.log('Hello world');
+    },
+    showInterest(){
+        this.interest.forEach(function(el){
+            console.log(el,this.name);
+        },this)
+    }
+}
+person.showInterest();
