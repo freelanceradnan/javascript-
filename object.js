@@ -18,3 +18,13 @@ let person={
     },
 }
 console.log(person['name']);
+
+//object methods accessing:
+let person={
+    name:'adnan',
+    age:21,
+    sayHello(){
+        console.log('hello github');
+    },
+}
+person.sayHello();
