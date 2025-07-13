@@ -93,3 +93,8 @@ let person={
 }
 person.sayHello();
 
+//this keyword in function
+function sayHello(){
+    console.log(this);
+}
+sayHello();
