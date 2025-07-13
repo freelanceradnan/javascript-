@@ -83,3 +83,13 @@ for(element in person){
     console.log(person[element]);
 }
 
+//This keyword in js object;
+let person={
+    name:'adnan',
+    age:20,
+    sayHello(){
+        console.log('Hello',this.name);
+    },
+}
+person.sayHello();
+
