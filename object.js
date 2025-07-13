@@ -28,3 +28,15 @@ let person={
     },
 }
 person.sayHello();
+
+//accessing object
+let person={
+    name:'adnan',
+    age:21,
+    location:'Ambari,dinajpur',
+    sayHello(){
+        console.log('Hello world');
+    },
+}
+let addr='location';
+console.log(person[addr]);
