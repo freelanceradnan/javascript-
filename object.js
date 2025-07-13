@@ -114,3 +114,20 @@ let person={
     }
 }
 person.showInterest();
+
+//this function in js;
+let person={
+    name:'adnan',
+    age:21,
+    location:'dinajpur',
+    interest:['javascript','php','laravel'],
+    sayHello(){
+        console.log('Hello world');
+    },
+    showInterest(){
+        this.interest.forEach((el)=>{
+            console.log(el,this.name);
+        })
+    }
+}
+person.showInterest();
