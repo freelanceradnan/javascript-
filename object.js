@@ -70,4 +70,16 @@ let person={
 }
 console.log(person.add.zilla);
 
+//accessing single value in object:
+let person={
+    name:'adnan',
+    age:21,
+    location:'Dhaka',
+    sayHello(){
+        console.log('Hello');
+    },
+}
+for(element in person){
+    console.log(person[element]);
+}
 
