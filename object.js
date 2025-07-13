@@ -58,4 +58,16 @@ let calculator={
 }
 console.log(calculator.sum(10,10));
 
+//accessing action with multiple object:
+let person={
+    name:'adnan',
+    age:21,
+    add:{
+        zilla:'Dinajpur',
+        upzilla:'parbatipur',
+        village:'kurial',
+    },
+}
+console.log(person.add.zilla);
+
 
