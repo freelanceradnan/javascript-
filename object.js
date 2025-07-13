@@ -8,3 +8,13 @@ let person={
     },
 }
 console.log(person.name);
+
+//object and accessing value;
+let person={
+    name:'adnan',
+    age:21,
+    sayHello(){
+        console.log('Hello');
+    },
+}
+console.log(person['name']);
