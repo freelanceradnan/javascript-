@@ -88,7 +88,7 @@ let sayHello=()=>{
 sayHello();
 
 //factory function in js:
-function createPerson(name,age){
+function createPerson(){
     return {
         name:'adnan',
         age:20,
@@ -98,4 +98,17 @@ function createPerson(name,age){
     }
 }
 let result=createPerson();
+console.log(result);
+
+//factory function with value:
+function createPerson(name,age){
+    return{
+        name:'name',
+        age:'age',
+        sayHello(){
+            console.log('Hello');
+        },
+    }
+}
+let result=createPerson('Nahid',21);
 console.log(result);
