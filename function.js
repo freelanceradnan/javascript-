@@ -86,3 +86,16 @@ let sayHello=()=>{
     console.log('Hello world');
 }
 sayHello();
+
+//factory function in js:
+function createPerson(name,age){
+    return {
+        name:'adnan',
+        age:20,
+        sayHello(){
+            console.log('Hi js');
+        },
+    }
+}
+let result=createPerson();
+console.log(result);
