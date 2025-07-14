@@ -123,3 +123,16 @@ function CreatePerson(name,age){
 }
 let result=new CreatePerson('adnan',21);
 console.log(result);
+
+//class function
+class Person{
+    constructor(name,age){
+        this.name='name';
+        this.age='age';
+        this.sayHello=function(){
+            console.log('Hi');
+        };
+    }
+}
+let result=new Person('adnan',21);
+console.log(result);
