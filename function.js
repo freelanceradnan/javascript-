@@ -112,3 +112,14 @@ function createPerson(name,age){
 }
 let result=createPerson('Nahid',21);
 console.log(result);
+
+//contrutor function:
+function CreatePerson(name,age){
+    this.name='name';
+    this.age='age',
+    this.sayHello=function(){
+        console.log('Hi js');
+    };
+}
+let result=new CreatePerson('adnan',21);
+console.log(result);
